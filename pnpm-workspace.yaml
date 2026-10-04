@@ -1,5 +1,6 @@
 allowBuilds:
-  esbuild: set this to true or false
-  netlify-cli: set this to true or false
-  sharp: set this to true or false
-  unix-dgram: set this to true or false
+  esbuild: false
+  netlify-cli: false
+  sharp: false
+  unix-dgram: false
+
