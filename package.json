@@ -1,0 +1,14 @@
+{
+  "name": "all-in-one-english",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "netlify:login": "netlify login",
+    "deploy:preview": "netlify deploy --dir=dist --no-build",
+    "deploy": "netlify deploy --prod --dir=dist --no-build"
+  },
+  "devDependencies": {
+    "netlify-cli": "^27.10.2",
+    "vercel": "^62.2.0"
+  }
+}
